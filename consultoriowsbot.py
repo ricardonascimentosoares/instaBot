@@ -46,19 +46,21 @@ if __name__ == '__main__':
 
     # session.like_by_locations(locations, randomize=True)
     # session.like_by_users(users_followed, amount=5, randomize=True)
-    session.like_by_tags(hashtags,
-                         amount=random.randint(5, 10),
-                         use_random_tags=True,
-                         randomize=True,
-                         interact=True)
+    # session.like_by_tags(hashtags.txt,
+    #                      amount=random.randint(5, 10),
+    #                      use_random_tags=True,
+    #                      randomize=True,
+    #                      interact=True)
 
 
-    # session.follow_by_tags(hashtags,
-    #                        amount=random.randint(5, 10),
-    #                        randomize=True,
-    #                        interact=True)
+    session.follow_by_tags(hashtags,
+                           amount=random.randint(5, 10),
+                           randomize=True,
+                           interact=True)
 
-    # session.follow_by_locations(locations, amount=random.randint(5, 10))
+    # session.follow_by_locations(locations,
+    #                             amount=random.randint(5, 10),
+    #                             skip_top_posts=True)
 
     # session.follow_user_followers(follow_users_from)
 
