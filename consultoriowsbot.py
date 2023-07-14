@@ -1,8 +1,6 @@
 from instapy import InstaPy
 import random
 
-bot_username = "consultoriows"
-bot_password = "protese87"
 
 hashtags = ["maquiagem", "makeup", "blogueira", "smile", "alegria", "bomdia", "boasemana", "beleza", "estetica",
             "felicidade", "happy", "campograndems", "wedding", "noiva", "casamento", "hair", "aesthetics", "dedication",
